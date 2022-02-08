@@ -9,7 +9,7 @@
 
 > a555555
 
-Some basic Git commands are:
+Some basic Git commands 
 ```
 git status
 git add
