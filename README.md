@@ -9,7 +9,7 @@
 
 
 
-Some basic Git commands 
+อิอิ
 ```
 git status
 git add
