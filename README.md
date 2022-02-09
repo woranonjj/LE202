@@ -1,13 +1,13 @@
 # สรุปความเข้าใจ
 
 ## การสมัครใช้งาน GitHub
-1.กดsign up
+### 1.กดsign up
 ![GitHub Dark](https://miro.medium.com/max/1400/1*B0KyWx5zoEAxRVmy1nva_A.png)
-2.กรอกข้อมูลและPassword
+### 2.กรอกข้อมูลและPassword
 ![GitHub Dark](https://miro.medium.com/max/875/1*8U0OkOeUONnpZzWKHjtckQ.png)
-3.เลือกใช้แบบ Free
+### 3.เลือกใช้แบบ Free
 ![เลือกใช้แบบ Free](https://miro.medium.com/max/875/1*khkrQAnG5xA9Uf9dkaabHg.png)
-4.กรอกแบบสอบถามและเสร็จสิ้นการสมัคร
+### 4.กรอกแบบสอบถามและเสร็จสิ้นการสมัคร
 ![กรอกแบบสอบถามและเสร็จสิ้นขั้นตอนการสมัคร](https://miro.medium.com/max/875/1*QuvfI3HoVykajno5bsNgpg.png)
 ### วันนี้จะอธิบายการทำ LAB
 
