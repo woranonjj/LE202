@@ -21,7 +21,7 @@
 ![](https://docs.github.com/assets/cb-49938/images/help/repository/initialize-with-readme.png)
 ### 2.6 กด Create repository และเสร็จสิ้นการสร้างรีโป้
 ![](https://docs.github.com/assets/cb-19887/images/help/repository/create-repository-button.png)
-## 3 รูปแบบพื้นฐานต่างๆในการสร้างรีโป้
+## 3 ตัวอย่างรูปแบบพื้นฐานต่างๆในการสร้างรีโป้
 ### 3.1 # ตัวอักษรจะเล็กลงเรื่อยๆเมื่อเพิ่ม #
 
 ### ตัวอย่าง
@@ -34,16 +34,15 @@
 ## The second largest heading
 ###### The smallest heading
 ```
-
-
-
-
-abc
+### 3.2Quoting text
+### ตัวอย่าง
+> Text that is a quote
+### โค้ดที่ใช้
 ```
-git status
-git add
-git commit
+> Text that is a quote
 ```
 
 
-![](https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/dog-puppy-on-garden-royalty-free-image-1586966191.jpg?crop=1.00xw:0.669xh;0,0.190xh&resize=640:*)`
+
+
+
