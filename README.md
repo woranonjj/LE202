@@ -1,7 +1,10 @@
-# ผมชื่อ นายวรนนท์ ป้องหมู่
+# สรุปความเข้าใจ
 
-## เกิดวันที่ 19 มิถุนายน 2545
-
+## การสมัครใช้งาน GitHub
+![กด sign up เพื่อสมัครใช้งาน](https://miro.medium.com/max/1400/1*B0KyWx5zoEAxRVmy1nva_A.png)
+![กรอกข้อมูลและPassword](https://miro.medium.com/max/875/1*8U0OkOeUONnpZzWKHjtckQ.png)
+![เลือกใช้แบบ Free](https://miro.medium.com/max/875/1*khkrQAnG5xA9Uf9dkaabHg.png)
+![กรอกแบบสอบถามและเสร็จสิ้นขั้นตอนการสมัคร](https://miro.medium.com/max/875/1*QuvfI3HoVykajno5bsNgpg.png)
 ### วันนี้จะอธิบายการทำ LAB
 
 สวัสดีจ้า
