@@ -86,6 +86,15 @@
 
 คือ platform การเขียนโปรแกรมลง microcontroller โดยมีข้อดี คือ เขียนแบบเดียวแต่เขียนลง microcontroller ได้หลายแบบและวิธีเขียนก็สามารถเขียนได้หลากหลาย เช่น arduino
 
+# แลป ESP-01
+## Example1
+เป็นการแสดงผลตัวแปร cnt ที่เพิ่มขึ้นทีละ 1 โดยมี delay 1000 ms หรือ 1 วินาที
+## Example1
+## Example1
+## Example1
+## Example1
+## Example1
+## Example1
 
 
 
