@@ -40,7 +40,7 @@
 ```
 > Text that is a quote
 ```
-### 3.2 การใส่ Links
+### 3.3 การใส่ Links
 ### ตัวอย่าง
 [facebook](https://www.facebook.com/).
 [youtube](https://www.youtube.com/).
@@ -50,6 +50,16 @@
 [facebook](https://www.facebook.com/).
 [youtube](https://www.youtube.com/).
 ```
+### 3.4 การใส่รูปภาพ -> คล้ายการใส่ Links แต่จะมี (!) ด้านหน้า
+### ตัวอย่าง
+![รูปแมว](https://ichef.bbci.co.uk/news/800/cpsprodpb/1124F/production/_119932207_indifferentcatgettyimages.png.webp).
+
+
+### โค้ดที่ใช้
+```
+![รูปแมว](https://ichef.bbci.co.uk/news/800/cpsprodpb/1124F/production/_119932207_indifferentcatgettyimages.png.webp).
+```
+
 
 
 
