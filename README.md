@@ -22,8 +22,7 @@
 ### 2.6 กด Create repository และเสร็จสิ้นการสร้างรีโป้
 ![](https://docs.github.com/assets/cb-19887/images/help/repository/create-repository-button.png)
 ## 3 ตัวอย่างรูปแบบพื้นฐานต่างๆในการสร้างรีโป้
-### 3.1 # ตัวอักษรจะเล็กลงเรื่อยๆเมื่อเพิ่ม #
-
+### 3.1 # ตัวอักษรจะเล็กลงเรื่อยๆเมื่อเพิ่ม (#)
 ### ตัวอย่าง
 # The largest heading
 ## The second largest heading
