@@ -1,5 +1,4 @@
 # สรุปความเข้าใจ
-
 ## 1 การสมัครใช้งาน GitHub
 ### 1.1 กดsign up
 ![GitHub Dark](https://miro.medium.com/max/1400/1*B0KyWx5zoEAxRVmy1nva_A.png)
@@ -20,9 +19,21 @@
 ![](https://docs.github.com/assets/cb-20877/images/help/repository/create-repository-public-private.png)
 ### 2.5 กด README
 ![](https://docs.github.com/assets/cb-49938/images/help/repository/initialize-with-readme.png)
-### 2.1 กด Create repository และเสร็จสิ้นการสร้างรีโป้
+### 2.6 กด Create repository และเสร็จสิ้นการสร้างรีโป้
 ![](https://docs.github.com/assets/cb-19887/images/help/repository/create-repository-button.png)
-สวัสดีจ้า
+## 3 รูปแบบพื้นฐานต่างๆในการสร้างรีโป้
+### 3.1 # ตัวอักษรจะเล็กลงเรื่อยๆเมื่อเพิ่ม #
+
+### ตัวอย่าง
+# The largest heading
+## The second largest heading
+###### The smallest heading
+### โค้ดที่ใช้
+```
+# The largest heading
+## The second largest heading
+###### The smallest heading
+```
 
 
 
