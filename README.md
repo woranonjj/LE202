@@ -2,7 +2,7 @@
 
 ## การสมัครใช้งาน GitHub
 ![GitHub Dark](https://miro.medium.com/max/1400/1*B0KyWx5zoEAxRVmy1nva_A.png)
-![กรอกข้อมูลและPassword](https://miro.medium.com/max/875/1*8U0OkOeUONnpZzWKHjtckQ.png)
+![GitHub Dark](https://miro.medium.com/max/875/1*8U0OkOeUONnpZzWKHjtckQ.png)
 ![เลือกใช้แบบ Free](https://miro.medium.com/max/875/1*khkrQAnG5xA9Uf9dkaabHg.png)
 ![กรอกแบบสอบถามและเสร็จสิ้นขั้นตอนการสมัคร](https://miro.medium.com/max/875/1*QuvfI3HoVykajno5bsNgpg.png)
 ### วันนี้จะอธิบายการทำ LAB
