@@ -100,4 +100,4 @@
 ## Example6
 เป็นโปรแกรมในการสร้าง wifi access point ขึ้นมาและทดสอบโดยการใช้อุปกรณ์ เช่น มือถือ มาดูว่ามี wifi อยู่ไหม 
 
-
+[ลิ้งค์สรุปวิดิโอ](https://www.youtube.com/watch?v=thNHl9RuStY)
