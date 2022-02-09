@@ -77,6 +77,9 @@
 ## 04 internet
 อินเตอร์เน็ต สามารถทำให้อุปกรณ์ทุกอย่างเชื่อมโยง เช่น มือถือ,TV
 ## 05 program lang
+![](https://pajareeblog.files.wordpress.com/2016/09/programming-languages-to-learn-in-2015.png)
+
+
 การเขียนซอฟแวร์รันบนคอมพิวเตอร์มีวิวัฒนาการอย่างยาวนาน ตัวอย่างภาษา เช่น ภาษาซี ภาษาpython และพัฒนาให้เขียนง่ายขึ้นเรื่อยๆ
 ## 06 platformio
 ![](https://cdn.platformio.org/images/platformio-logo.17fdc3bc.png)
