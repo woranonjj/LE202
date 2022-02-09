@@ -11,17 +11,17 @@
 ![กรอกแบบสอบถามและเสร็จสิ้นขั้นตอนการสมัคร](https://miro.medium.com/max/875/1*QuvfI3HoVykajno5bsNgpg.png)
 ## 2 วิธีสร้างรีโป้(repository = repo)
 ### 2.1 กด New repository
-[](https://docs.github.com/assets/cb-11427/images/help/repository/repo-create.png)
+![](https://docs.github.com/assets/cb-11427/images/help/repository/repo-create.png)
 ### 2.2 กรอกชื่อรีโป้
-[](https://docs.github.com/assets/cb-25139/images/help/repository/create-repository-name.png)
+![](https://docs.github.com/assets/cb-25139/images/help/repository/create-repository-name.png)
 ### 2.3 สามารถใส่Descriptionได้
-[](https://docs.github.com/assets/cb-26377/images/help/repository/create-repository-desc.png)
+![](https://docs.github.com/assets/cb-26377/images/help/repository/create-repository-desc.png)
 ### 2.4 เลือกเป็นPublic
-[](https://docs.github.com/assets/cb-20877/images/help/repository/create-repository-public-private.png)
+![](https://docs.github.com/assets/cb-20877/images/help/repository/create-repository-public-private.png)
 ### 2.5 กด README
-[](https://docs.github.com/assets/cb-49938/images/help/repository/initialize-with-readme.png)
+![](https://docs.github.com/assets/cb-49938/images/help/repository/initialize-with-readme.png)
 ### 2.1 กด Create repository และเสร็จสิ้นการสร้างรีโป้
-[](https://docs.github.com/assets/cb-19887/images/help/repository/create-repository-button.png)
+![](https://docs.github.com/assets/cb-19887/images/help/repository/create-repository-button.png)
 สวัสดีจ้า
 
 
