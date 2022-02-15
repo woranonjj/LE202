@@ -4,7 +4,7 @@
 #include <Arduino.h>
 
 
-int cnt = 0;			%สร้างตัวแปร cnt โดยให้มีค่า = 0
+int cnt = 0;			//สร้างตัวแปร cnt โดยให้มีค่า = 0
 
 
 void setup()
@@ -13,7 +13,7 @@ void setup()
 {
 
 
-	Serial.begin(115200);			%set serial port ที่ความเร็ว 115200 B/s
+	Serial.begin(115200);			//set serial port ที่ความเร็ว 115200 B/s
 	
 	
 }
@@ -25,13 +25,13 @@ void loop()
 {
 
 
-	cnt++;			%ให้ cnt +1
+	cnt++;			//ห้ cnt +1
 	
 	
-	Serial.printf("A:%d\n",cnt);			%แสดงค่าของตัวแปร cnt 
+	Serial.printf("A:%d\n",cnt);			//แสดงค่าของตัวแปร cnt 
 	
 	
-	delay(300);			%ให้หน่วงเวลา 300 ms
+	delay(300);			//ให้หน่วงเวลา 300 ms
 	
 	
 }
@@ -51,10 +51,10 @@ void setup()
 {
 
 
-	Serial.begin(115200);
+	Serial.begin(115200);		//ตั้งความเร็วสื่อสารที่ 115200 และสั่งให้เริ่มทำงาน
 	
 	
-	WiFi.mode(WIFI_STA);
+	WiFi.mode(WIFI_STA);	// ตั้งค่า WiFi เป็นโหมดสถานีและตัดการเชื่อมต่อจากเครื่อข่ายหากเชื่อมต่อไว้ก่อนหน้านี้	
 	
 	
 	WiFi.disconnect();
@@ -78,7 +78,7 @@ void loop()
 	Serial.println("========== เริ่มต้นแสกนหา Wifi ===========");
 	
 	
-	int n = WiFi.scanNetworks();
+	int n = WiFi.scanNetworks();			//แสดงจำนวนเครื่อยข่ายที่พบในรูปคัวแปร n
 	
 	
 	if(n == 0) {
@@ -91,6 +91,8 @@ void loop()
 	
 	
 		for(int i=0; i<n; i++) {
+		
+			 // Print SSID และ RSSI ของเครื่อยข่ายที่มีสัญญาน
 		
 		
 			Serial.print(i + 1);
@@ -114,7 +116,7 @@ void loop()
 			Serial.println((WiFi.encryptionType(i) == ENC_TYPE_NONE)?" ":"*");
 			
 			
-			delay(10);
+			delay(10);			 หน่วงเวลาในการแสกนทุกๆ 10ms
 			
 			
 		}
