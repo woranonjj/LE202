@@ -25,7 +25,7 @@ void loop()
 {
 
 
-	cnt++;			//ห้ cnt +1
+	cnt++;			//ให้ cnt +1
 	
 	
 	Serial.printf("A:%d\n",cnt);			//แสดงค่าของตัวแปร cnt 
@@ -78,7 +78,7 @@ void loop()
 	Serial.println("========== เริ่มต้นแสกนหา Wifi ===========");
 	
 	
-	int n = WiFi.scanNetworks();			//แสดงจำนวนเครื่อยข่ายที่พบในรูปคัวแปร n
+	int n = WiFi.scanNetworks();			//แสดงจำนวนเครื่อยข่ายที่พบในรูปตัวแปร n
 	
 	
 	if(n == 0) {
@@ -90,9 +90,7 @@ void loop()
 	} else {
 	
 	
-		for(int i=0; i<n; i++) {
-		
-			 // Print SSID และ RSSI ของเครื่อยข่ายที่มีสัญญาน
+		for(int i=0; i<n; i++) { 		// Print SSID และ RSSI ของเครื่อยข่ายที่มีสัญญาน
 		
 		
 			Serial.print(i + 1);
