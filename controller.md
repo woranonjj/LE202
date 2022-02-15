@@ -25,7 +25,7 @@
 ![](https://www.microchip.com/content/dam/mchp/mrt-dam/ic-images/tqfp/32-lead-t5x/ATMEGA3208-T5X-Regular.jpg)
 
 
-ราคา:ประมาณ 8000 บาท
+ราคา:ประมาณ 53 บาท
 
 
 ลิงค์:https://th.mouser.com/ProductDetail/Microchip-Technology-Atmel/ATMEGA3208-AFR?qs=y6ZabgHbY%252ByqMua8ssBYRQ%3D%3D
@@ -93,9 +93,9 @@
 3. พอร์ต D 8 ขา (PD0 ถึง PD7)
 
 ## 5.ATtiny104
-![]https://www.microchip.com/content/dam/mchp/mrt-dam/ic-images/soic/14-lead-d3x/ATtiny104-D3X-Regular.jpg) 
+![](https://www.microchip.com/content/dam/mchp/mrt-dam/ic-images/soic/14-lead-d3x/ATtiny104-D3X-Regular.jpg) 
 
-ราคา:ประมาณ 22,635.08 บาท
+ราคา:ประมาณ 30 บาท
 
 
 ลิงค์:https://www.microchip.com/en-us/product/ATtiny104#document-table
