@@ -64,10 +64,10 @@
 พอร์ท input/output:
 ออนบอร์ด1ช่องเสียบการ์ด TF, อินเตอร์เฟซเครื่องเสียง1ตัว, ไฟ RGB 1ตัว, ตัวรับสัญญาณอินฟราเรด1ตัว, ปุ่มฟังก์ชั่น3ตัว, ปุ่มรีเซ็ต1ปุ่ม,
 ## 4.AVR ATmega8
-![]https://sites.google.com/site/phassakornett/_/rsrc/1468882520609/home-work/hw-1/Untitled12.jpg) 
+![](https://gb.lnwfile.com/5lkv4e.jpg) 
 
 
-ราคา:ประมาณ 22,635.08 บาท
+ราคา:ประมาณ 45 บาท
 
 
 ลิงค์:https://sites.google.com/site/phassakornett/home-work/hw-1
