@@ -236,13 +236,55 @@ void loop()			//เมื่อ cnt เป็นเลขคี่ให้ on �
 
 			Serial.println("Connecting ...");
 			int i = 0;
-			while (wifiMulti.run() != WL_CONNECTED) { 
-				delay(1000);
+			while (wifiMulti.run() != WL_CONNECTED) { 			//connect กับ wifi ที่เราเลือกไว้
+				delay(1000);			//หน่วงเวลา 1000 ms
 				Serial.print(++i); Serial.print(' ');
 			}
 			Serial.println("");
 			Serial.print("IP address: ");
 			Serial.println(WiFi.localIP());
+
+			server.onNotFound([]() {
+				server.send(404, "text/plain", "Path Not Found");
+			});
+
+			server.on("/", []() {			//set up web serverของเราถ้ามีการเชื่อมโยงแสดง Hello cnt
+				cnt++;			//cnt +1
+				String msg = "Hello cnt: ";
+				msg += cnt;
+				server.send(200, "text/plain", msg);
+			});
+
+			server.begin();
+			Serial.println("HTTP server started");
+		}
+
+		void loop(void){
+		  server.handleClient();
+		}
+
+
+## แลป 6
+		#include <ESP8266WiFi.h>
+		//#include <WiFiClient.h>
+		#include <ESP8266WebServer.h>
+
+		const char* ssid = "MY-ESP8266";		//ชื่อ SSID  ของตัวเอง
+		const char* password = "choompol";		//ชื่อ password ของตัวเอง
+		IPAddress local_ip(192, 168, 1, 1);			// กำหนดค่าตัวแปร local_ip ให้มีค่าเท่ากับ 192.168.1.1
+		IPAddress gateway(192, 168, 1, 1);			//กำหนดค่าตัวแปร gateway ให้มีค่าเท่ากับ 192.168.1.1
+		IPAddress subnet(255, 255, 255, 0);			 กำหนดค่าตัวแปร subnet ให้มีค่าเท่ากับ 255.255.255.0
+
+		ESP8266WebServer server(80);		//เปิดweb server ที่ port 80
+
+		int cnt = 0;
+
+		void setup(void){
+			Serial.begin(115200);			//  ใช้งานฟังก์ชัน Serial โดยตั้งค่าอัตราเร็ว Baud rate ของ Serial อยู่ที่ 115200 บิตต่อวินาที
+
+			WiFi.softAP(ssid, password);			//ใช้งานฟังก์ชัน WiFi.softAP เพื่อให้ AP เริ่มทำงาน
+			WiFi.softAPConfig(local_ip, gateway, subnet);			 //ใช้งานฟังก์ชัน WiFi.softAPConfig เพื่อตั้งค่า IP , gateway , subnet ให้ AP
+			delay(100);
 
 			server.onNotFound([]() {
 				server.send(404, "text/plain", "Path Not Found");
@@ -262,6 +304,3 @@ void loop()			//เมื่อ cnt เป็นเลขคี่ให้ on �
 		void loop(void){
 		  server.handleClient();
 		}
-
-
-
