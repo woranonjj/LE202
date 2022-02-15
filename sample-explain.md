@@ -194,29 +194,74 @@ void loop()			//เมื่อ cnt เป็นเลขคี่ให้ on �
 		#include <Arduino.h>
 		#include <ESP8266WiFi.h>
 
-		int cnt = 0;
+		int cnt = 0;		//สร้างตัวแปร cnt โดยให้มีค่า = 0
 
 		void setup()
 		{
-			Serial.begin(115200);
-			pinMode(0, INPUT);
-			pinMode(2, OUTPUT);
-			Serial.println("\n\n\n");
+			Serial.begin(115200);		//set serial port ที่ความเร็ว 115200 B/s
+			pinMode(0, INPUT);		//กำหนดport 0 เป็นโหมด INPUT
+			pinMode(2, OUTPUT);		//กำหนดport 2 เป็นโหมด OUTPUT
+			Serial.println("\n\n\n");	//เว้น3บรรทัด
 		}
 
 		void loop()
 		{
-			int val = digitalRead(0);
-			Serial.printf("======= read %d\n", val);
-			if(val==1) {
+			int val = digitalRead(0);			//อ่านค่าจากport 0 ไปเก็บในตัวแปร val ซึ่งจะมีค่าเป็น 0 หรือ 1 เท่านั้น
+			Serial.printf("======= read %d\n", val);			//แสดง val
+			if(val==1) {			//ถ้า val = 1 ให้่ port 2 ไฟดับ
 				digitalWrite(2, LOW);
-			} else {
+			} else {			//ถ้า val = 0 ให้่ port 2 ไฟติด
 				digitalWrite(2, HIGH);
 			}
-			delay(100);
+			delay(100);		หน่วงเวลา 100 ms
 		}
 
+## แลป 5
+		#include <ESP8266WiFi.h>
+		#include <ESP8266WiFiMulti.h>
+		#include <ESP8266WebServer.h>
 
+		const char* ssid = "HI_BMFWIFI_2.4G";		//ชื่อ SSID  ของตัวเอง
+		const char* password = "0819110933";		//ชื่อ password ของตัวเอง
+
+		ESP8266WiFiMulti wifiMulti;
+		ESP8266WebServer server(80);
+
+		int cnt = 0;
+
+		void setup(void){
+			Serial.begin(115200);		//set serial port ที่ความเร็ว 115200 B/s
+
+			wifiMulti.addAP(ssid, password);
+
+			Serial.println("Connecting ...");
+			int i = 0;
+			while (wifiMulti.run() != WL_CONNECTED) { 
+				delay(1000);
+				Serial.print(++i); Serial.print(' ');
+			}
+			Serial.println("");
+			Serial.print("IP address: ");
+			Serial.println(WiFi.localIP());
+
+			server.onNotFound([]() {
+				server.send(404, "text/plain", "Path Not Found");
+			});
+
+			server.on("/", []() {
+				cnt++;
+				String msg = "Hello cnt: ";
+				msg += cnt;
+				server.send(200, "text/plain", msg);
+			});
+
+			server.begin();
+			Serial.println("HTTP server started");
+		}
+
+		void loop(void){
+		  server.handleClient();
+		}
 
 
 
