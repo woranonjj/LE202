@@ -146,7 +146,7 @@ void setup()
 	Serial.begin(115200);		//set serial port ที่ความเร็ว 115200 B/s
 	
 	
-	pinMode(0, OUTPUT);		//set ใหเ port 0 เป็น port output
+	pinMode(0, OUTPUT);		//set ให้ port 0 เป็น port output
 	
 	
 	Serial.println("\n\n\n");			//เว้น 3 บรรทัด
