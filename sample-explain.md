@@ -42,7 +42,7 @@ void loop()
 #include <ESP8266WiFi.h>
 
 
-int cnt = 0;
+int cnt = 0;		//สร้างตัวแปร cnt โดยให้มีค่า = 0
 
 
 void setup()
@@ -63,7 +63,7 @@ void setup()
 	delay(100);
 	
 	
-	Serial.println("\n\n\n");
+	Serial.println("\n\n\n");			//เว้น 3 บรรทัด
 	
 	
 }
@@ -84,7 +84,7 @@ void loop()
 	if(n == 0) {
 	
 	
-		Serial.println("NO NETWORK FOUND");
+		Serial.println("NO NETWORK FOUND");			//กรณีไม่เจอ wifi
 		
 		
 	} else {
@@ -127,3 +127,96 @@ void loop()
 	
 	
 }
+## แลป 3
+#include <Arduino.h>
+
+
+#include <ESP8266WiFi.h>
+
+
+int cnt = 0;		//สร้างตัวแปร cnt โดยให้มีค่า = 0
+
+
+void setup()
+
+
+{
+
+
+	Serial.begin(115200);		//set serial port ที่ความเร็ว 115200 B/s
+	
+	
+	pinMode(0, OUTPUT);		//set ใหเ port 0 เป็น port output
+	
+	
+	Serial.println("\n\n\n");			//เว้น 3 บรรทัด
+	
+	
+}
+
+
+
+void loop()			//เมื่อ cnt เป็นเลขคี่ให้ on และเมื่อเป็นเลขคู่ให้off
+
+
+{
+
+
+	cnt++;				//ตัวแปร cnt +1
+	
+	
+	if(cnt % 2) {
+	
+	
+		Serial.println("========== ON ===========");
+		
+		
+		digitalWrite(0, HIGH);
+		
+		
+	} else {
+	
+	
+		Serial.println("========== OFF ===========");
+		
+		
+		digitalWrite(0, LOW);
+		
+		
+	}
+	
+	
+	delay(500);			//หน่วงเวลา 500 ms
+	
+	
+}
+## แลป4
+#include <Arduino.h>
+#include <ESP8266WiFi.h>
+
+int cnt = 0;
+
+void setup()
+{
+	Serial.begin(115200);
+	pinMode(0, INPUT);
+	pinMode(2, OUTPUT);
+	Serial.println("\n\n\n");
+}
+
+void loop()
+{
+	int val = digitalRead(0);
+	Serial.printf("======= read %d\n", val);
+	if(val==1) {
+		digitalWrite(2, LOW);
+	} else {
+		digitalWrite(2, HIGH);
+	}
+	delay(100);
+}
+
+
+
+
+
