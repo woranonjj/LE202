@@ -22,7 +22,7 @@
 
 1x MicroUSB Console Port
 ## 2.ATMEGA3208
-![](https://th.mouser.com/images/mouserelectronics/images/TQFP_32_t.jpg)
+![](https://www.microchip.com/content/dam/mchp/mrt-dam/ic-images/tqfp/32-lead-t5x/ATMEGA3208-T5X-Regular.jpg)
 
 
 ราคา:ประมาณ 8000 บาท
