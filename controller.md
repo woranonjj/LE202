@@ -92,5 +92,32 @@
 
 3. พอร์ต D 8 ขา (PD0 ถึง PD7)
 
+## 5.ATtiny104
+![]https://www.microchip.com/content/dam/mchp/mrt-dam/ic-images/soic/14-lead-d3x/ATtiny104-D3X-Regular.jpg) 
+
+ราคา:ประมาณ 22,635.08 บาท
+
+
+ลิงค์:https://www.microchip.com/en-us/product/ATtiny104#document-table
+
+
+ความเร็ว:12MIPS
+
+
+หน่วยความจำ:1KB
+
+
+พอร์ท input/output:
+-12 Programmable I/O Lines for ATtiny104 and 6 Programmable I/O Lines for ATtiny102
+
+
+– 8-pin UDFN (ATtiny102)
+
+
+– 8-pin SOIC150 (ATtiny102)
+
+
+– 14-pin SOIC150 (ATtiny104)
+
 
 
