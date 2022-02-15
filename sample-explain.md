@@ -4,7 +4,7 @@
 #include <Arduino.h>
 
 
-int cnt = 0;
+int cnt = 0;			%สร้างตัวแปร cnt โดยให้มีค่า = 0
 
 
 void setup()
@@ -13,7 +13,7 @@ void setup()
 {
 
 
-	Serial.begin(115200);         **set serial port ที่ความเร็ว 115200**
+	Serial.begin(115200);			%set serial port ที่ความเร็ว 115200 B/s
 	
 	
 }
@@ -25,13 +25,105 @@ void loop()
 {
 
 
-	cnt++;
+	cnt++;			%ให้ cnt +1
 	
 	
-	Serial.printf("A:%d\n",cnt);
+	Serial.printf("A:%d\n",cnt);			%แสดงค่าของตัวแปร cnt 
 	
 	
-	delay(300);
+	delay(300);			%ให้หน่วงเวลา 300 ms
+	
+	
+}
+## แลป 2
+#include <Arduino.h>
+
+
+#include <ESP8266WiFi.h>
+
+
+int cnt = 0;
+
+
+void setup()
+
+
+{
+
+
+	Serial.begin(115200);
+	
+	
+	WiFi.mode(WIFI_STA);
+	
+	
+	WiFi.disconnect();
+	
+	
+	delay(100);
+	
+	
+	Serial.println("\n\n\n");
+	
+	
+}
+
+
+void loop()
+
+
+{
+
+
+	Serial.println("========== เริ่มต้นแสกนหา Wifi ===========");
+	
+	
+	int n = WiFi.scanNetworks();
+	
+	
+	if(n == 0) {
+	
+	
+		Serial.println("NO NETWORK FOUND");
+		
+		
+	} else {
+	
+	
+		for(int i=0; i<n; i++) {
+		
+		
+			Serial.print(i + 1);
+			
+			
+			Serial.print(": ");
+			
+			
+			Serial.print(WiFi.SSID(i));
+			
+			
+			Serial.print(" (");
+			
+			
+			Serial.print(WiFi.RSSI(i));
+			
+			
+			Serial.print(")");
+			
+			
+			Serial.println((WiFi.encryptionType(i) == ENC_TYPE_NONE)?" ":"*");
+			
+			
+			delay(10);
+			
+			
+		}
+		
+		
+	}
+	
+	
+	Serial.println("\n\n");
 	
 	
 }
