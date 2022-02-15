@@ -1,7 +1,6 @@
 # ผลการสำรวจบอร์ดmicrocontroller
-![](https://images.prismic.io/sifive/2ff587dd-12e5-4512-a196-9de7e41989d9_unmatched_board.png?auto=compress,format)
 ## 1.SiFive Freedom U740 SoC
-
+![](https://images.prismic.io/sifive/2ff587dd-12e5-4512-a196-9de7e41989d9_unmatched_board.png?auto=compress,format) 
 
 ราคา:ประมาณ 22,635.08 บาท
 
@@ -22,8 +21,8 @@
 
 
 1x MicroUSB Console Port
-![](https://th.mouser.com/images/mouserelectronics/images/TQFP_32_t.jpg)
 ## 2.ATMEGA3208
+![](https://th.mouser.com/images/mouserelectronics/images/TQFP_32_t.jpg)
 
 
 ราคา:ประมาณ 8000 บาท
