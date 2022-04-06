@@ -1,5 +1,5 @@
 # รายงานอธิบายความหมายและความสัมพันธ์ของคำสำคัญ
-## 1.โปรแซสเซสเซอร์ (processor,microcontroller)
+## 1.โปรเซสเซอร์ (processor,microcontroller)
 ### คอมพิวเตอร์จะต้องมีส่วนที่เป็นสมองที่เรียกว่า processor ซึ่งมีหลายยี่ห้อเช่น RISC-V,AVR,x86,ARM
 ![hifiveunleashedangled_1_jpg_open_graph](https://user-images.githubusercontent.com/98943488/161917868-e1cdb5a3-c288-437f-8567-00ac3c2a578b.jpg)
 ### ตัวอย่าง processor จาก RISC-V
