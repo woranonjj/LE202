@@ -1,6 +1,7 @@
 # สรุปความเข้าใจ
 ## 1 การสมัครใช้งาน GitHub
-### 1.1 กดsign up
+### 1.1 กดsign up ![image](https://user-images.githubusercontent.com/98943488/208968714-69862bab-cbe1-4da2-87ba-71a6648a2965.png)
+
 ![GitHub Dark](https://miro.medium.com/max/1400/1*B0KyWx5zoEAxRVmy1nva_A.png)
 ### 1.2 กรอกข้อมูลและPassword
 ![GitHub Dark](https://miro.medium.com/max/875/1*8U0OkOeUONnpZzWKHjtckQ.png)
