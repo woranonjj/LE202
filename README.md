@@ -1,6 +1,7 @@
 # สรุปความเข้าใจ
 ## 1 การสมัครใช้งาน GitHub
-### 1.1 กดsign up ![image](https://user-images.githubusercontent.com/98943488/208968714-69862bab-cbe1-4da2-87ba-71a6648a2965.png)
+### 1.1 กดsign up 
+![Purple Cream Pastel Illustration Class Syllabus Education Presentation 43n (1)](https://user-images.githubusercontent.com/98943488/208969001-fe7e5f6d-29d1-460b-a82d-c289609676b2.jpg)
 
 ![GitHub Dark](https://miro.medium.com/max/1400/1*B0KyWx5zoEAxRVmy1nva_A.png)
 ### 1.2 กรอกข้อมูลและPassword
