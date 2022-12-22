@@ -2,6 +2,7 @@
 ## 1 การสมัครใช้งาน GitHub
 ### 1.1 กดsign up 
 ![Purple Cream Pastel Illustration Class Syllabus Education Presentation 43n (1)](https://user-images.githubusercontent.com/98943488/208969001-fe7e5f6d-29d1-460b-a82d-c289609676b2.jpg)
+![Purple Cream Pastel Illustration Class Syllabus Education Presentation 43n (2)](https://user-images.githubusercontent.com/98943488/209180421-617c9924-9d1a-42a7-a720-831cc243f317.jpg)
 
 ![GitHub Dark](https://miro.medium.com/max/1400/1*B0KyWx5zoEAxRVmy1nva_A.png)
 ### 1.2 กรอกข้อมูลและPassword
